@@ -1755,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 70px;
+			height: 70px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 70px;
+				height: 70px;
 			}
 
 		.image.fit {
@@ -2259,8 +2259,30 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/nature1.jpg");
 			}
+
+			#main > section.one {
+		    position: relative;
+		    background-color: #81918E;
+			}
+
+			#main > section.one::before {
+			    content: "";
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    bottom: 0;
+			    left: 0;
+			    background: rgba(0, 0, 0, 0.5); /* This creates a semi-transparent black overlay. Adjust the 0.5 value to make the overlay darker or lighter. */
+			    z-index: 1;
+			}
+
+			#main > section.one > * {
+			    position: relative;
+			    z-index: 2;
+			}
+
 
 			#main > section.two {
 				background-color: #f5fafa;
