@@ -705,6 +705,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			img {
+			  max-width: 100%;
+			  height: auto;
+			}
+
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -939,6 +945,11 @@ input, select, textarea {
 	table {
 		margin: 0 0 2rem 0;
 		width: 100%;
+	}
+
+	table {
+	  max-width: 100%;
+	  width: 100%;
 	}
 
 		table tbody tr {
