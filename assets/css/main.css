@@ -1977,6 +1977,11 @@ input, select, textarea {
 			background-color: #7eaeac;
 		}
 
+	/* Specific download button */
+		.button.icon.fa-download {
+		  font-size: 0.6em;
+		  padding: 0em 2em;
+		}
 /* Item */
 
 	.item {
