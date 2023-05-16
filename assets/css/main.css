@@ -1665,3 +1665,11 @@ input, select, textarea {
 		.fa-hand-point-down {
 		  vertical-align: middle;
 		}
+
+/* Mobile Responsiveness */
+		@media screen and (max-width: 768px) {
+		  ul li {
+		    text-align: center;
+		    padding-left: 0;
+		  }
+		}
