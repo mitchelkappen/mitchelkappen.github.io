@@ -1660,3 +1660,8 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Icon */
+		.fa-hand-point-down {
+		  vertical-align: middle;
+		}
